@@ -205,7 +205,6 @@ helm install argocd argo/argo-cd \
   --version 5.51.6 \
   --namespace argocd \
   --create-namespace \
-  --set installCRDs=true
   ```
 
 - Helm installs ArgoCD and its CRDs automatically.
@@ -356,4 +355,5 @@ spec:
     scaleDown:
       stabilizationWindowSeconds: 300
 ```
+
 
