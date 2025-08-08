@@ -355,5 +355,10 @@ spec:
     scaleDown:
       stabilizationWindowSeconds: 300
 ```
+# Remember this 
+```
+kubectl run tmp-${RANDOM} --image=busybox --rm --restart=Never -it -- /bin/sh
+```
+
 
 
